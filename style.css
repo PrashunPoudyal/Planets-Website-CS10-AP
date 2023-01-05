@@ -1,0 +1,79 @@
+
+:root {
+	--mainColor: #121212;
+	--secondColor: #595959;
+}
+
+button {
+	width: 10%;
+	background-color: var(--mainColor);
+	color: white;
+	height: max;
+}
+
+button:hover {
+	background-color: var(--secondColor);
+}
+
+
+header {
+	color: white;
+	background-color: var(--mainColor);
+	border: 3px solid white;
+	width: 95%;
+	margin: auto;
+	text-align: center;
+}
+
+.subHeader {
+	color: white;
+	background-color: var(--mainColor);
+	border: 3px solid white;
+	width: 95%;
+	margin: auto;
+	border-top: 0;
+	font-size: 0px;
+}
+
+.informationBar {
+	color: white;
+	border: 3px solid white;
+	width: 40%;
+	min-width: 600px;
+	padding: 10px;
+	background-color: var(--mainColor);
+	float: right;
+	margin-right: 2.3%;
+	margin-top: 25px;
+	text-align: justify;
+}
+
+.mainTextBar {
+	color: white;
+	border: 3px solid white;
+	width: 50%;
+	min-width: 600px;
+	padding: 10px;
+	background-color: var(--mainColor);
+	float: left;
+	margin-left: 2.3%;
+	margin-top: 25px;
+	text-align: justify;
+}
+
+.listOfInformation {
+	
+	color: white;
+	border: 3px solid white;
+	padding: 10px;
+}
+
+#listOfInfo {
+	margin-top: 5px;
+}
+
+
+body {
+	background-image: url(img/background.webp);
+	min-width: 648px;
+}
